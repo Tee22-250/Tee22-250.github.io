@@ -1,0 +1,210 @@
+* {margin: 0;
+padding: 0;
+background-color: #41B3A3;
+}
+@font-face {
+	src: url(../fonts/PermanentMarker-Regular.ttf);
+	font-family: marker;
+}
+@font-face {
+	src: url(../fonts/air_mitalic.ttf);
+	font-family: air; 
+}
+@font-face {
+	src: url(../fonts/Hundo.ttf);
+	font-family: hundo; 
+}
+@font-face {
+	src: url(../fonts/Bangers-Regular.ttf);
+	font-family: bangers; 
+}
+@font-face {
+  src: url(../fonts/CevicheOne-Regular.ttf);
+  font-family: cev; 
+}
+
+@font-face {
+  src: url(../fonts/IndieFlower-Regular.ttf);
+  font-family: indie; 
+}
+@font-face {
+  src: url(../fonts/Marlboro.ttf);
+  font-family: malbro; 
+}
+@font-face {
+  src: url(../fonts/Midtown.ttf);
+  font-family: midtown; 
+}
+
+
+/*.      CONTAINER NUMBER       */
+.con1 {
+	width: 90%;
+	height: 380px;
+	background-color: #C38D9E;
+	margin: 0 auto;
+	box-shadow: 0 0 22px #666633;
+	margin-top: 5%;
+}
+
+.s1 h1 {
+	text-align: center;
+	color: white;
+	background-color: #C38D9E;
+	padding-top: 9%;
+	font-size: 5em;
+	margin: 0 auto;
+}
+
+.s1 h3 {
+	text-align: center;
+	color: black;
+	background-color: #C38D9E;
+	font-size: 1.8em;
+	text-shadow: 5px 5px  22px #666633;
+}
+
+
+/*.   NAV BAR STYLING.        */
+/*
+.nav {
+	width: 90%;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 1.5%;
+	background-color: #8b9c3d;
+}
+
+.navbar {
+	width: 70%;
+	background-color: #8b9c3d;
+	height: 100%;
+
+}
+
+.navbar a {
+	text-decoration: none;
+	
+	display: inline-block;
+	background-color: #4b8009;
+	
+	margin: 0 auto;
+	height: 100%;
+	font-size: 1.4em;
+}
+
+.navbar a:hover {
+	color: #cbd900;
+}
+
+
+
+
+/*.      MENU BAR STYLING WITH SUB MENU OPTIONS         */ 
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	margin-left: 5%;
+    z-index: 100;
+}
+
+ul li { 
+	margin-top: 1.9%;
+	float: left; 
+	width: 160px; 
+	height: 60px;
+	opacity: .7;
+	z-index: 100;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	color: white;
+	text-align: center;
+	z-index: 100;
+}
+ul li a:hover {
+	cursor: pointer;
+	color: black;
+	border-radius: 70px;
+	z-index: 100;
+}
+
+ul li ul li {
+	display: none;
+	padding: 2%;
+	z-index: 100;
+}
+ul li:hover ul li {
+	display: block;
+	margin-left: 2%;
+	height: 20px;
+	border-radius: 6px;
+	z-index: 6;
+}
+
+.home {
+	float: right;
+	position: relative;
+	left: 180%;
+}
+
+
+.con2 {
+	z-index: 5;
+}
+
+
+.s2 {
+	margin-top:480px;
+	margin-bottom: 20px;
+	width: 80%;
+	height: 530px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #E27D60;
+	z-index: 5;
+	box-shadow: 0 0 22px #666633;
+}
+.s2 h2 {
+	background-color: #E27D60;
+	padding-top: 50px;
+	color: white;
+	z-index: 5;
+}
+.s2 p {
+	background-color: #E27D60;
+	padding-top: 50px;
+	color: white;
+	z-index: 5;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+
+footer p {
+	text-align: center;
+	width: 100%;
+	height: 80px;
+	margin-top: 10%;
+	color: white;
+	float: bottom;
+	z-index: 6;
+	margin-top: 800px;
+	font-size: 40px;
+}
+
+
+
+
+
